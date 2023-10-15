@@ -1,10 +1,11 @@
-
-Twitch, Youtube, GoodGame and WASD livestream monitor
+Twitch, Youtube
 =======
+
+Since the original seems down, here's an alternative. It only works for Twitch and YouTube, I didn't bother to set it for WASD.
 
 This is a bot for Telegram.
 
-Write to [@twiMonBot](https://telegram.me/twimonbot) and use it!
+Write to [@AnotherTwitchMonitorBot](https://t.me/AnotherTwitchMonitorBot) and use it!
 
 Run
 ---

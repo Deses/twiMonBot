@@ -54,7 +54,7 @@ const ru = {
   'action_yes': 'Да',
   'action_no': 'Нет',
   'action_cancel': 'Отмена',
-  'context_about': 'Source code: https://github.com/Deses/twiMonBot/blob/master/README.md',
+  'context_about': 'Source code: https://github.com/Deses/twiMonBot',
   'alert_channel-in_blacklist': 'Канал в черном списке',
   'alert_channel-limit-exceeded': 'Превышен лимит каналов',
   'alert_unknown-error': 'Упс! Что-то пошло не так...',

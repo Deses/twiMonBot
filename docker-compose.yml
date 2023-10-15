@@ -11,6 +11,8 @@ services:
     env_file: .env
     ports:
       - 1111:80
+    networks:
+      - monitornet
     volumes:
       - ./log/twiMonBot:/opt/log
 
@@ -19,5 +21,11 @@ services:
     image: mariadb:11.0.2
     restart: always
     env_file: .env
+    networks:
+      - monitornet
     volumes:
       - ./volumes/bot-db/mysql:/var/lib/mysql
+      
+networks:
+  monitornet:
+    driver: bridge

@@ -1,6 +1,5 @@
 const en = {
-  'alert_help':
-    'Hi! I will notify you about the beginning of the broadcasts on {services} and {lestService}!",
+  'alert_help': "Hi! I will notify you about the beginning of the broadcasts on {services} and {lestService}!",
   'alert_offline': "All channels offline",
   'alert_empty-channel-list': "You don't have channels in watchlist, yet.",
   'context_enter-channel-name': "Enter the channel URL or name (example: {example}):",

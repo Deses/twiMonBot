@@ -1,4 +1,4 @@
-Twitch, Youtube
+Twitch and Youtube livestream monitor
 =======
 
 Since the original seems down, here's an alternative. It only works for Twitch and YouTube, I didn't bother to set it for WASD.

@@ -15,11 +15,11 @@ Use docker-compose. Rename example.env to .env and fill all the info:
 - `GA_TID` - Can be left empty.
 - `TWITCH_TOKEN` & `TWITCH_SECRET` - Go to the [Twitch Dev Console](https://dev.twitch.tv/console) and create an Application. "OAuth Redirect URLs" can be left as `http://localhost`.
 - `YOUTUBE_TOKEN` - Go to [Google Cloud Console](https://console.cloud.google.com/), create a project and create an API "YouTube Data API v3"	.
-- `YOUTUBE_PUBSUB_HOST=` - Can be left empty.
+- `YOUTUBE_PUBSUB_HOST=` - I think this is webhooks for push notifications. [Check this guide](https://www.youtube.com/watch?v=QQSJGS2JR4w) [Youtube API docs](https://developers.google.com/youtube/v3/guides/push_notifications). No idea what to put here.
 - `YOUTUBE_PUBSUB_PORT` - 443
 - `YOUTUBE_PUBSUB_PATH` - /
-- `YOUTUBE_PUBSUB_SECRET` - Can be left empty.
-- `YOUTUBE_PUBSUB_CALLBACK_URL` - Can be left empty.
+- `YOUTUBE_PUBSUB_SECRET` - No idea what to put here.
+- `YOUTUBE_PUBSUB_CALLBACK_URL` - No idea what to put here.
 - `WASD_TOKEN` - Get the WASD token if you care about it.
 - `DB_HOST` - Either "localhost" or the IP of your docker container. `sudo docker ps` and `docker inspect <container id> | grep "IPAddress"` to retrieve it.
 - `DB_PORT` - `3306`
